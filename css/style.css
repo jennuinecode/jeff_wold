@@ -162,8 +162,8 @@ a.btn-banner:hover, a.btn-banner:focus
 }
 
 .img-fluid {
-	max-width: 100%;
-	height: auto;
+	max-width: 150%;
+
 }
 .bgblue-dark
 {
@@ -486,6 +486,10 @@ cta
 }
 
 @media (min-width: 451px) and (max-width: 768px) {
+	.img-fluid {
+		max-width: 100%;
+
+	}
 .filter {
     padding: 5px 18px;
     margin-bottom: 3px;
@@ -503,6 +507,10 @@ cta
 
 
 @media (min-width: 301px) and (max-width: 450px) {
+	.img-fluid {
+		max-width: 100%;
+
+	}
 .filter {
     padding: 3px 14px;
     margin-bottom: 3px;
@@ -560,6 +568,10 @@ p.cta-sub-title {
 
 
 @media (min-width: 100px) and (max-width: 300px) {
+.img-fluid {
+		max-width: 100%;
+
+}
 .filter {
     padding: 3px 14px;
     margin-bottom: 3px;
@@ -598,6 +610,10 @@ p.cta-sub-title {
 }
 }
 @media (min-width: 300px) and (max-width: 768px) {
+	.img-fluid {
+		max-width: 100%;
+
+	}
 
 #cases {
 	padding-bottom: 40px;
@@ -753,6 +769,10 @@ form element
 
 
 
+
+
+
+
 /*
  Table Of Contents
  1.) Media Query for Handheld Devices
@@ -763,6 +783,10 @@ form element
  1.) Media Query for Handheld Devices
  ===============================*/
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.img-fluid {
+		max-width: 100%;
+
+	}
 	.touch span {
 		font-size: 26px;
 	}
@@ -899,6 +923,10 @@ form element
 	}
 }
 @media only screen and (min-width: 1200px) and (max-width: 1360px) {
+	.img-fluid {
+		max-width: 100%;
+
+	}
 	#people .owl-next:after, #wedding-item .owl-next:after {
 		left: -11px;
 	}
@@ -917,6 +945,10 @@ form element
  ===============================*/
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+	.img-fluid {
+		max-width: 100%;
+
+	}
 
 	.home nav{
 		margin-right: 0px;
@@ -1093,206 +1125,7 @@ form element
 		padding-left:0px;
 		padding-right: 0px;
 	}
-	/*=======================================home-agency==============================================*/
-	.home-agency nav {
-		margin-right: 0;
-		margin-top: 12px;
-	}
-	.home-agency .logo img{
-		width:107px;
-	}
-	.home-agency .padd-left{
-		padding-left: 15px;
-	}
-	.home-agency .padd-right{
-		padding-right: 15px;
-		padding-left:15px;
-	}
-	.home-agency .banner {
-		min-height: 0px;
-	}
-	.home-agency .banner ul {
-		margin-top: 0px;
-	}
-	.home-agency .navigation > li {
-		padding: 6px 0 8px 11px;
-	}
-	.home-agency .banner img {
-		height: auto;
-		display: block;
-	}
-	.home-agency .banner .banner-caption {
-		width: 780px;
-		top: 67% !important;
-	}
-	.home-agency .banner .banner-caption .tp-splitted {
-		font-size: 37px !important;
-	}
-	.home-agency .navigation li a {
-		font-size: 15px;
-	}
-	.home-agency .banner .banner-caption .h1 {
-		line-height: 58px;
-		letter-spacing: 0px;
-	}
-	.home-agency .what-we-do {
-		padding-top: 70px;
-	}
-	.home-agency .what-we-do .info-wrap, .home-agency .how-we-do .info-wrap, .home-agency .services .info-wrap {
-		width: 100%;
-		padding: 0px 15px;
-	}
-	.home-agency .our-team p {
-		width: auto;
-	}
-	.event-img img {
-		width: 100%;
-	}
-	.home-agency .what-we-do .event-img a {
-		width: 50px;
-		height: 50px;
-		bottom: -23px;
-	}
-	.home-agency .what-we-do .event-img a i {
-		font-size: 22px;
-	}
-	.home-agency .what-we-do .event-img {
-		margin-bottom: 44px;
-	}
-	.home-agency .what-we-do .event strong {
-		font-size: 24px;
-	}
-	.home-agency .services .circle {
-		width: 160px;
-		height: 160px;
-		margin-left: 0;
-	}
-	.type-name > img {
-		width: 50%;
-	}
-	.home-agency .services .circle .type-name span {
-		padding-top: 8px;
-		font-size: 16px;
-		line-height: 20px;
-	}
-	.home-agency .how-we-do .event a {
-		top: -25px;
-		width: 50px;
-		height: 50px;
-	}
-	.home-agency .what-we-do .event h3 a, .home-agency .detail h3 a, .home-agency .post-blog h3 a {
-		font-size: 23px;
-	}
-	.home-agency .how-we-do .event a i {
-		font-size: 25px;
-	}
-	.home-agency .our-team .group .detail > a {
-		height: 41px;
-		width: 41px;
-	}
-	.home-agency .how-we-do .event strong:after {
-		left: 33%;
-	}
-	.home-agency .about-us .blog-wrap .detail {
-		padding: 93px 50px 80px;
-		height: 612px;
-	}
-	.home-agency .about-us .blog-wrap .detail .para1 {
-		font-size: 22px;
-		line-height: 33px;
-	}
-	.home-agency .about-us .blog-wrap .detail .para2 {
-		font-size: 17px;
-		line-height: 28px;
-	}
-	.home-agency .about-us .blog-wrap .video img {
-		height: 612px;
-	}
-	.home-agency .about-us .blog-wrap .video a {
-		width: 130px;
-		height: 130px;
-	}
-	.home-agency .about-us .blog-wrap .video a .fa-play {
-		left: 58%;
-		font-size: 59px;
-	}
-	.home-agency .wedding-plan span {
-		font-size: 27px;
-		margin-bottom: 30px;
-		width: auto;
-	}
-	.home-agency .touch-class {
-		margin-right: 20px;
-	}
-	.home-agency .owl-prev:before, .home-agency #partner-slider .owl-prev:before {
-		right: 0;
-	}
-	.home-agency .owl-prev:before, .home-agency .owl-next:after {
-		top: 14%;
-	}
-	.home-agency .our-team .group .detail span {
-		font-size: 17px;
-	}
-	.home-agency .owl-next:after, #partner-slider .owl-next:after {
-		left: 0;
-		right: auto;
-	}
-	.home-agency .wedding-plan .btn {
-		margin: 0px auto;
-		display: inline-block;
-	}
-	.home-agency .wedding-plan {
-		padding: 52px 0 30px;
-	}
-	.home-agency .sec-block {
-		width: 25%;
-		margin-left: 38px;
-	}
-	.home-agency .sec-block:last-child {
-		width: 35%;
-	}
-	.home-agency .status ul li {
-		padding: 65px 0;
-	}
 
-	/*======================blog-detail================*/
-	.blog nav, .event-page nav {
-		margin-right: 18px;
-	}
-	.event-page-content .span-wrapper {
-		margin-bottom: 50px;
-		padding: 30px 6px;
-	}
-    .event-page .logo, .blog .logo{
-    	margin-left: 10px;
-    }
-	/*======================travel-p-page================*/
-	.left-inner-header .park-class:after {
-		height: 39px;
-	}
-	.header-center-content h2:after {
-		left: 21%;
-	}
-	.left-inner-header .park-class {
-		font-size: 14px;
-		padding: 10px 30px 10px 8px;
-	}
-	.travel-page .bg-color .right-part {
-		padding-top: 14px;
-	}
-	.travel-page .bg-color h3 {
-		margin-bottom: 0px;
-	}
-	.travel-page .bg-color address {
-		padding: 22px 0 5px;
-	}
-	.travel-page .btn {
-		margin-bottom: 30px;
-	}
-	/*======================404-page================*/
-
-
-}
 
 /*
  3.) Media Query for mobile
