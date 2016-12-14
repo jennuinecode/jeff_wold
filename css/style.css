@@ -26,7 +26,7 @@ Header
 .section-padding
 {
 	padding: 40px 0px;
-	
+
 }
 .main-navigation
 {
@@ -159,6 +159,11 @@ a.btn-banner:hover, a.btn-banner:focus
 .container .jumbotron, .container-fluid .jumbotron {
     padding-right: 60px;
     padding-left: 0px;
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
 }
 .bgblue-dark
 {
@@ -479,11 +484,14 @@ cta
     padding: 56px 20px 20px;
 }
 }
+
 @media (min-width: 451px) and (max-width: 768px) {
 .filter {
     padding: 5px 18px;
     margin-bottom: 3px;
 }
+
+
 .wd75
 {
     width: 100%;
@@ -492,6 +500,8 @@ cta
     padding: 56px 20px 20px;
 }
 }
+
+
 @media (min-width: 301px) and (max-width: 450px) {
 .filter {
     padding: 3px 14px;
@@ -547,6 +557,8 @@ p.cta-sub-title {
 {
     text-decoration: none;
 }
+
+
 @media (min-width: 100px) and (max-width: 300px) {
 .filter {
     padding: 3px 14px;
