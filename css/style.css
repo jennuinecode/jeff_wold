@@ -26,6 +26,7 @@ Header
 .section-padding
 {
 	padding: 40px 0px;
+	
 }
 .main-navigation
 {
@@ -178,7 +179,7 @@ a.btn-banner:hover, a.btn-banner:focus
 .cta-1, .cta2
 {
 	background-color: #cd0101;
-	padding: 40px 0px;
+	padding: 40px 100px 40px 0px;
 }
 p.cta-sub-title
 {
